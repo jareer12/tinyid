@@ -3,5 +3,6 @@ module main
 import tinyid
 
 fn main() {
-	println(tinyid.new(12))
+	println(tinyid.new())
+	println(tinyid.generate(12))
 }
